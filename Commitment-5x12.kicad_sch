@@ -1955,6 +1955,68 @@
 				)
 			)
 		)
+		(symbol "lizard_lib:MX_Stabilizer"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_Stabilizer_1_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 4 0 1)
+					)
+				)
+			)
+		)
 		(symbol "lizard_lib:MX_Switch"
 			(pin_names
 				(offset 1.016)
@@ -7231,7 +7293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 214.63 184.15 0)
 			(effects
 				(font
@@ -7463,7 +7525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 115.57 184.15 0)
 			(effects
 				(font
@@ -7613,7 +7675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 115.57 219.71 0)
 			(effects
 				(font
@@ -7681,7 +7743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 165.1 237.49 0)
 			(effects
 				(font
@@ -7910,7 +7972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_2.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 139.7 237.49 0)
 			(effects
 				(font
@@ -8045,7 +8107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 33.02 237.49 0)
 			(effects
 				(font
@@ -8113,7 +8175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 181.61 237.49 0)
 			(effects
 				(font
@@ -8729,7 +8791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_2.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 107.95 237.49 0)
 			(effects
 				(font
@@ -8879,7 +8941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 165.1 201.93 0)
 			(effects
 				(font
@@ -8947,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 198.12 184.15 0)
 			(effects
 				(font
@@ -9179,7 +9241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 198.12 201.93 0)
 			(effects
 				(font
@@ -9329,7 +9391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -9479,7 +9541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 132.08 166.37 0)
 			(effects
 				(font
@@ -9727,7 +9789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 82.55 219.71 0)
 			(effects
 				(font
@@ -10205,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 165.1 219.71 0)
 			(effects
 				(font
@@ -10273,7 +10335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 214.63 166.37 0)
 			(effects
 				(font
@@ -10587,7 +10649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 99.06 184.15 0)
 			(effects
 				(font
@@ -10655,7 +10717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 132.08 184.15 0)
 			(effects
 				(font
@@ -10805,7 +10867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 49.53 237.49 0)
 			(effects
 				(font
@@ -11037,7 +11099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 82.55 201.93 0)
 			(effects
 				(font
@@ -11187,7 +11249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 198.12 237.49 0)
 			(effects
 				(font
@@ -11337,7 +11399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 49.53 219.71 0)
 			(effects
 				(font
@@ -11569,7 +11631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -11719,7 +11781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 181.61 166.37 0)
 			(effects
 				(font
@@ -11936,7 +11998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 165.1 166.37 0)
 			(effects
 				(font
@@ -11979,6 +12041,70 @@
 		)
 	)
 	(symbol
+		(lib_id "lizard_lib:MX_Stabilizer")
+		(at 113.03 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684fe9c3-55eb-46ad-89fa-1389554d9d81")
+		(property "Reference" "M1"
+			(at 118.11 259.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lizard_libs:MX_2U_Stabilizer_Mount"
+			(at 113.03 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0dc486c7-2743-451e-93ad-8516174ce902"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lizard_lib:MX_Switch")
 		(at 38.1 201.93 0)
 		(unit 1)
@@ -12004,7 +12130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 33.02 201.93 0)
 			(effects
 				(font
@@ -12505,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 198.12 166.37 0)
 			(effects
 				(font
@@ -12655,7 +12781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 99.06 166.37 0)
 			(effects
 				(font
@@ -12805,7 +12931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 49.53 184.15 0)
 			(effects
 				(font
@@ -12873,7 +12999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 66.04 219.71 0)
 			(effects
 				(font
@@ -12941,7 +13067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 99.06 219.71 0)
 			(effects
 				(font
@@ -13009,7 +13135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 132.08 201.93 0)
 			(effects
 				(font
@@ -13307,7 +13433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 33.02 184.15 0)
 			(effects
 				(font
@@ -13689,7 +13815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 49.53 201.93 0)
 			(effects
 				(font
@@ -13757,7 +13883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 181.61 184.15 0)
 			(effects
 				(font
@@ -13825,7 +13951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 115.57 201.93 0)
 			(effects
 				(font
@@ -14204,7 +14330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 214.63 201.93 0)
 			(effects
 				(font
@@ -14272,7 +14398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 66.04 237.49 0)
 			(effects
 				(font
@@ -14422,7 +14548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 115.57 166.37 0)
 			(effects
 				(font
@@ -14490,7 +14616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 198.12 219.71 0)
 			(effects
 				(font
@@ -14640,7 +14766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 214.63 219.71 0)
 			(effects
 				(font
@@ -14708,7 +14834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 82.55 237.49 0)
 			(effects
 				(font
@@ -14776,7 +14902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 66.04 201.93 0)
 			(effects
 				(font
@@ -14844,7 +14970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 49.53 166.37 0)
 			(effects
 				(font
@@ -15281,6 +15407,70 @@
 		)
 	)
 	(symbol
+		(lib_id "lizard_lib:MX_Stabilizer")
+		(at 144.78 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbe42a4d-c32d-4eff-9aab-20429b275239")
+		(property "Reference" "M2"
+			(at 149.86 259.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 149.86 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lizard_libs:MX_2U_Stabilizer_Mount"
+			(at 144.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0dc486c7-2743-451e-93ad-8516174ce902"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:MMBD4148TW")
 		(at 44.45 190.5 90)
 		(unit 1)
@@ -15701,7 +15891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 82.55 184.15 0)
 			(effects
 				(font
@@ -15851,7 +16041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 66.04 184.15 0)
 			(effects
 				(font
@@ -16083,7 +16273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 181.61 219.71 0)
 			(effects
 				(font
@@ -16151,7 +16341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 148.59 166.37 0)
 			(effects
 				(font
@@ -16219,7 +16409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 132.08 219.71 0)
 			(effects
 				(font
@@ -16369,7 +16559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 148.59 184.15 0)
 			(effects
 				(font
@@ -16596,7 +16786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 165.1 184.15 0)
 			(effects
 				(font
@@ -16664,7 +16854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 33.02 219.71 0)
 			(effects
 				(font
@@ -16814,7 +17004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 148.59 201.93 0)
 			(effects
 				(font
@@ -16982,7 +17172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 214.63 237.49 0)
 			(effects
 				(font
@@ -17050,7 +17240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 99.06 201.93 0)
 			(effects
 				(font
@@ -17200,7 +17390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 181.61 201.93 0)
 			(effects
 				(font
@@ -17350,7 +17540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 82.55 166.37 0)
 			(effects
 				(font
@@ -17418,7 +17608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lizard_libs:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "lizard_libs:hotswap_keyswitch_reflow"
 			(at 148.59 219.71 0)
 			(effects
 				(font
