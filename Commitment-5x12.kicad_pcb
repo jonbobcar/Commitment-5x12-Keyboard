@@ -12361,7 +12361,7 @@
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "adcaa860-c511-4aad-85c3-f5aa04875920")
+			(uuid "17f173c4-b704-4a83-88da-7d0c5535e0de")
 			(effects
 				(font
 					(size 1 1)
@@ -12373,7 +12373,7 @@
 			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "791b07dc-edaf-4655-bf13-5f5b700a9696")
+			(uuid "d896ca23-3ab3-45a4-a4a9-a6ebd430cc07")
 			(effects
 				(font
 					(size 1 1)
@@ -12386,7 +12386,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f755a534-6d17-43b0-b00b-e8334b9e0e2c")
+			(uuid "eba9f4fd-3237-4622-93d4-8943ab250810")
 			(effects
 				(font
 					(size 1 1)
@@ -12399,7 +12399,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92ffac67-9a5b-4704-ac45-4a72cea9a31b")
+			(uuid "66f5ea95-8636-4db4-8060-6b03f912111f")
 			(effects
 				(font
 					(size 1 1)
@@ -12412,7 +12412,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f177a9f-33b6-41ee-b198-75833924d5f2")
+			(uuid "a0cc0ab2-ce61-4f8b-8ed3-23a71c2c2d11")
 			(effects
 				(font
 					(size 1 1)
@@ -12428,7 +12428,7 @@
 			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a4db0395-83d7-4783-bdfc-3adc477e24d8")
+			(uuid "e933a849-2f24-461c-abe8-99640e3730d0")
 			(effects
 				(font
 					(size 1 1)
@@ -12445,7 +12445,7 @@
 			(net 88 "Net-(J2-Pin_10)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "d0cea030-01af-422c-a608-0b712eb8b1f7")
+			(uuid "25ad547c-d45d-4ce1-a82a-df38be049aee")
 		)
 		(pad "1" thru_hole circle
 			(at 3.25 -2.25 90)
@@ -12456,7 +12456,7 @@
 			(net 88 "Net-(J2-Pin_10)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "a358a82d-5533-4db3-8a3f-636ad090e8ac")
+			(uuid "7a4bf2cb-6de8-42e2-b953-e7c83ec28c09")
 		)
 		(pad "2" thru_hole circle
 			(at -3.25 2.25 90)
@@ -12467,7 +12467,7 @@
 			(net 2 "GND")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "e4200722-b23a-4af9-bae8-6da098162bf0")
+			(uuid "f2c7650e-6a7e-4526-9ad8-405c500c2948")
 		)
 		(pad "2" thru_hole circle
 			(at 3.25 2.25 90)
@@ -12478,7 +12478,18 @@
 			(net 2 "GND")
 			(pinfunction "B")
 			(pintype "passive")
-			(uuid "c4459efb-a576-4ab4-929b-b7df4e142aab")
+			(uuid "f093d75d-aa1c-4f2d-90a7-af7f948e5e63")
+		)
+		(model "C:/Users/jonca/SynologyDrive/Projects/kicad_libs/3d-cad/b3f-1000.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "lizard_libs:MX_2U_Stabilizer_Mount"
