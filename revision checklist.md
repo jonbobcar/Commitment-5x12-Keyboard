@@ -8,4 +8,4 @@
 
 - [x] add reset button
 
-[ ] add repo website to silkscreen 
+- [ ] add repo website to silkscreen 
